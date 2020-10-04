@@ -1,14 +1,11 @@
 //I worked on the homework assignment alone, using only course materials.
-
 public class Student {
-
     private final String name;
     private int gtid;
     private int classYear;
     private double gpa;
     private double diningDollar;
     private double buzzfund;
-
     //Constructors
     //Complete constructor
     public Student(String name, int gtid, int classYear, double gpa, double diningDollar, double buzzfund) {
@@ -54,7 +51,7 @@ public class Student {
             System.out.println(name + "has successfully purchase the meal");
         }
     }
-    //method fo radding money to diningdollar
+    //method for adding money to diningdollar
     public void addDiningDollars(double diningDollarVal) {
         diningDollar += diningDollarVal;
     }
